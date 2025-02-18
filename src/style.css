@@ -1,19 +1,109 @@
 * {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav a{
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 128px;
+  background-color: #fff;
+}
+
+.nav-logo img {
+  height: 40px;
+  max-width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav a {
   text-decoration: none;
   color: #000;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-nav button{
+nav button {
   background-color: #426B1F;
   border: none;
   border-radius: 4%;
   width: 160px;
   height: 64px;
   font-size: 20px;
-  font-weight:bold;
+  font-weight: bold;
   color: #fff;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #365817;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.home h1 {
+  width: 738px;
+  height: 83px;
+  text-align: center;
+  margin: 80px auto 32px;
+}
+
+.home p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home img {
+  margin: 32px auto 64px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+
+.home button {
+  height: 67px;
+  width: 267px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.home-buttons button:nth-child(1) {
+  background-color: #fff;
+  color: #000;
+  border-color: #426B1F;
+}
+
+.home-buttons button:nth-child(1):hover {
+  background-color: #d6d3d3;
+}
+
+.home-buttons button:nth-child(2) {
+  background-color: #426B1F;
+  color: #fff;
+  border-color: #426B1F;
+}
+
+.home-buttons button:nth-child(2):hover {
+  background-color:#365817;
+  border-color: #365817;
 }
