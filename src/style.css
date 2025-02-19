@@ -89,23 +89,23 @@ nav button:hover {
   cursor: pointer;
 }
 
-.home-buttons button:nth-child(1) {
+.button-1 {
   background-color: #fff;
   color: #000;
   border-color: #426B1F;
 }
 
-.home-buttons button:nth-child(1):hover {
+.button-1:hover {
   background-color: #d6d3d3;
 }
 
-.home-buttons button:nth-child(2) {
+.button-2 {
   background-color: #426B1F;
   color: #fff;
   border-color: #426B1F;
 }
 
-.home-buttons button:nth-child(2):hover {
+.button-2:hover {
   background-color:#365817;
   border-color: #365817;
 }
