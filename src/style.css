@@ -230,10 +230,16 @@ button {
 .faq-list {
   width: 80%;
   max-width: 800px;
+  margin-bottom: 16px;
 }
 
 .faq-item {
   margin-bottom: 32px;
+}
+
+.faq-item a{
+  text-decoration: none;
+  color: #426B1F;
 }
 
 .faq-item h2 {
