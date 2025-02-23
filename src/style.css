@@ -161,10 +161,11 @@ button {
 
 .guide h2 {
   margin-bottom: 8px;
+  font-size: 1.4em;
 }
 
 .guide-step p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.5;
 }
 
@@ -224,6 +225,7 @@ button {
 
 .faqs h1 {
   margin-bottom: 40px;
+  font-weight: bolder;
 }
 
 .faq-list {
