@@ -278,6 +278,9 @@ button {
   nav {
     padding: 16px 64px;
   }
+  .about h1 {
+    font-size: 32px;
+  }
 
   .nav-links {
     gap: 24px;
@@ -323,6 +326,8 @@ button {
   .note-qr {
     grid-template-columns: 2fr 1fr;
   }
+
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -338,6 +343,10 @@ button {
   .burger-menu {
     display: block;
     z-index: 101;
+  }
+
+  .about h1 {
+    font-size: 24px;
   }
 
   .nav-links {
@@ -460,11 +469,19 @@ button {
   .faq-list {
     width: 100%;
   }
+  
+  .home {
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .home h1 {
     font-size: 20px;
+  }
+
+  .home {
+    height: 100vh;
   }
 
   .home p {
