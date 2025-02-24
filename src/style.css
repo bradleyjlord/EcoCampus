@@ -284,8 +284,9 @@ button {
   }
 
   .about h1, .guide h1, .faqs h1 {
-    width: 100%;
+    
   }
+  
   .about h1 {
     font-size: 32px;
   }
