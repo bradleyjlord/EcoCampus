@@ -349,7 +349,7 @@ button {
     z-index: 101;
   }
 
-  .about h1 {
+  .about h1, .guide h1, .faqs h1{
     font-size: 24px;
     padding: 0;
   }
@@ -459,12 +459,25 @@ button {
   }
 
   .guide {
-    padding: 80px 24px;
+    padding: 80px auto;
+  }
+
+  .guide-steps {
+    width: 100%;
+  }
+
+  .guide-step h2, .faqs h2 {
+    font-size: 20px;
+  }
+
+  .guide-step p, .faqs p {
+    font-size: 16px;
   }
 
   .note-qr {
     grid-template-columns: 1fr;
     gap: 24px;
+    width: 100%;
   }
 
   .qr-code {
