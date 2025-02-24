@@ -290,6 +290,42 @@ button {
     gap: 24px;
   }
 
+  .scroll-page {
+    height: auto;
+  }
+
+  .scroll-page img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about {
+    height: auto;
+    padding: 48px 24px;
+  }
+
+  .image-board {
+    width: 100%;
+    height: auto;
+  }
+
+  .npc-container {
+    gap: 24px;
+    flex-direction: row;
+    margin-top: 24px;
+  }
+
+  .npc-container img{
+    height: 100px;
+    margin-top: -80px;
+  }
+
+  .npc-set-1, .npc-set-2 {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+  }
+
   nav button {
     width: 120px;
     height: 48px;
@@ -423,39 +459,9 @@ button {
 
   }
 
-  .scroll-page {
-    height: auto;
-  }
-
-  .scroll-page img {
-    width: 100%;
-    height: auto;
-  }
-
-  .about {
-    height: auto;
-    padding: 0 24px;
-  }
-
-  .image-board {
-    width: 100%;
-    height: auto;
-  }
-
-  .npc-container {
-    gap: 24px;
-    flex-direction: row;
-    margin-top: 24px;
-  }
-
   .npc-container img{
-    height: 120px;
-  }
-
-  .npc-set-1, .npc-set-2 {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
+    height: 80px;
+    margin-top: -50px;
   }
 
   .guide {
