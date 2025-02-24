@@ -459,13 +459,13 @@ button {
 
   }
 
+  .npc-container {
+    gap: 100px;
+  }
+
   .npc-container img{
     height: 80px;
     margin-top: -50px;
-  }
-
-  .guide {
-    padding: 80px auto;
   }
 
   .guide-steps {
@@ -490,7 +490,7 @@ button {
     order: -1;
   }
 
-  .faqs {
+  .faqs, .guide {
     padding: 80px 24px;
   }
 
