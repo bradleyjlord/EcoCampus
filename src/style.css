@@ -330,6 +330,11 @@ button {
     padding: 16px 24px;
   }
 
+  .nav-logo img {
+    height: 28px;
+    width: auto;
+  }
+
   .burger-menu {
     display: block;
     z-index: 101;
@@ -401,6 +406,7 @@ button {
     gap: 16px;
     width: 100%;
     align-items: center;
+
   }
 
   .scroll-page {
@@ -466,7 +472,6 @@ button {
   }
 
   button {
-    width: 100%;
     max-width: 280px;
   }
 
