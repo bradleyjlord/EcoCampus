@@ -398,6 +398,11 @@ button {
     z-index: 101;
   }
 
+  .about h1, .guide h1, .faqs h1{
+    font-size: 24px;
+    padding: 0;
+  }
+
   .nav-links {
     position: fixed;
     top: 0;
