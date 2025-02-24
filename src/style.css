@@ -120,7 +120,7 @@ button {
 }
 
 .about {
-  padding-top: 140px;
+  padding: 140px 24px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -300,16 +300,18 @@ button {
   .scroll-page img {
     width: 100%;
     height: auto;
+    
   }
 
   .about {
     height: auto;
-    padding: 48px 24px;
+    
   }
 
   .image-board {
     width: 100%;
     height: auto;
+    
   }
 
   .npc-container {
@@ -374,7 +376,6 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  
   nav {
     padding: 16px 24px;
   }
