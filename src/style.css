@@ -53,7 +53,7 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 48px;
+  padding: 90px;
   height: 100vh;
 }
 
@@ -452,7 +452,7 @@ button {
   .home {
     padding: 24px;
     height: auto;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .home h1 {
