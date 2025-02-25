@@ -499,7 +499,7 @@ button {
   }
 
   .qr-code {
-    order: -1;
+    order: 1;
   }
 
   .faqs, .guide {
