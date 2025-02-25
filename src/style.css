@@ -286,7 +286,7 @@ button {
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px),  screen and (max-height: 800px) {
   nav {
     padding: 16px 64px;
   }
@@ -382,7 +382,7 @@ button {
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px),  screen and (max-height: 600px) {
   nav {
     padding: 16px 24px;
   }
@@ -511,7 +511,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px), screen and (max-height: 480px) {
   .home h1 {
     font-size: 20px;
   }
