@@ -220,7 +220,7 @@ button {
 }
 
 .faqs {
-  padding: 120px;
+  padding: 120px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -379,10 +379,12 @@ button {
     grid-template-columns: 2fr 1fr;
   }
 
-  
+  .faqs, .guide {
+    padding: 80px 24px;
+  }
 }
 
-@media screen and (max-width: 768px),  screen and (max-height: 600px) {
+@media screen and (max-width: 768px) {
   nav {
     padding: 16px 24px;
   }
@@ -502,8 +504,14 @@ button {
     order: 1;
   }
 
+  .faqs {
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
   .faqs, .guide {
-    padding: 80px 24px ;
+    padding: 80px 24px;
   }
 
   .faq-list, .faq-item {
@@ -515,7 +523,6 @@ button {
   .home h1 {
     font-size: 20px;
   }
-
 
   .home p {
     font-size: 16px;
