@@ -361,6 +361,10 @@ button {
     max-width: 600px;
   }
 
+  .home {
+    height: auto;
+  }
+
   .buttons {
     gap: 32px;
   }
