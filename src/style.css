@@ -315,6 +315,10 @@ button {
     
   }
 
+  .guide {
+    height: auto;
+  }
+
   .image-board {
     width: 100%;
     height: auto;
